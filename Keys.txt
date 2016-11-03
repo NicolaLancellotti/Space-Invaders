@@ -1,0 +1,6 @@
+Move cannon to the right: right arrow
+Move cannon to the left: left arrow
+Fire: space bar
+New game: n
+Pause: p
+Quit: q

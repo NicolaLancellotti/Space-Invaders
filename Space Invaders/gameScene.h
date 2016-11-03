@@ -1,0 +1,15 @@
+//
+//  gameScene.h
+//  
+//
+//  Created by Nicola Lancellotti
+//
+
+#ifndef __gameScene__
+#define __gameScene__
+
+#include <stdio.h>
+
+void loadGameScene();
+
+#endif /* defined(__gameScene__) */

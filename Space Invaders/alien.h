@@ -41,10 +41,10 @@ void initAlien(alien_t *alien, GLfloat x0, GLfloat y0, alienType_t type);
 //______________________________________________________________________________
 #pragma mark - Get & Set
 
-GLfloat getAlienLengthA();
-GLfloat getAlienLengthB();
-GLfloat getAlienLengthC();
-GLfloat getAlienHeight();
+GLfloat getAlienLengthA(void);
+GLfloat getAlienLengthB(void);
+GLfloat getAlienLengthC(void);
+GLfloat getAlienHeight(void);
 int getPoints(alien_t *alien);
 void setScaleXYAlien(GLfloat valueX, GLfloat valueY);
 

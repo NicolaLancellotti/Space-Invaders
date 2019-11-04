@@ -87,9 +87,9 @@ void drawParallelepiped(GLfloat xMin, GLfloat  xMax, GLfloat yMin, GLfloat yMax,
 //______________________________________________________________________________
 #pragma mark - Other
 
-void drawBottomLine();
-void drawTopLine();
-void drawBackGround();
+void drawBottomLine(void);
+void drawTopLine(void);
+void drawBackGround(void);
 void drawBoundingBoxs(const cannon_t *cannon, const barrier_t barriers[], 
                       const aliens_t *aliens);
 

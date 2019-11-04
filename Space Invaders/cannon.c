@@ -20,7 +20,7 @@ static void shiftCannonHorizontal(cannon_t *cannon, GLfloat shift);
 
 static const GLfloat SPRITE_LENGTH = 104;
 static const GLfloat SPRITE_HEIGHT = 64;
-static const GLfloat SPRITE_DEPTH = 40;
+__attribute__((unused)) static const GLfloat SPRITE_DEPTH = 40;
 
 static const int RECTALGLES_NUM = 4;
 // xMin, xMax, yMin, yMax

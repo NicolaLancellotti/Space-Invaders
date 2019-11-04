@@ -21,9 +21,9 @@
 #pragma mark - Declarations
 
 // Update state of the game
-static void initObjectsForNewGame();
-static void initObjectsForNextLife();
-static void initObjectsForNextLevel();
+static void initObjectsForNewGame(void);
+static void initObjectsForNextLife(void);
+static void initObjectsForNextLevel(void);
 
 // Callbacks
 static void dispalyCallback(void);
@@ -35,7 +35,7 @@ static void specialCallback(int key, int x, int y);
 static void specialUpCallback(int key, int x, int y);
 static void menuCallBack(int value);
 
-static void createMenu();
+static void createMenu(void);
 
 //______________________________________________________________________________
 #pragma mark - Variables

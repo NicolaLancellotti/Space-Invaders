@@ -15,7 +15,7 @@
 
 static const GLfloat SPRITE_LENGTH = 176;
 static const GLfloat SPRITE_HEIGHT = 128;
-static const GLfloat SPRITE_DEPTH = 40;
+__attribute__((unused)) static const GLfloat SPRITE_DEPTH = 40;
 
 static const int RECTALGLES_NUM = 11;
 // xMin, xMax, yMin, yMax

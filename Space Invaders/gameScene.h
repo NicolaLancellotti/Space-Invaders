@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-void loadGameScene();
+void loadGameScene(void);
 
 #endif /* defined(__gameScene__) */

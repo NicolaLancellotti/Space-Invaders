@@ -30,7 +30,7 @@ static void collisionLaserAliens(laser_t *laser, aliens_t *aliens, game_t *game)
 
 static const GLfloat SPRITE_LENGTH = 10;
 static const GLfloat SPRITE_HEIGHT = 20;
-static const GLfloat SPRITE_DEPTH = 20;
+__attribute__((unused)) static const GLfloat SPRITE_DEPTH = 20;
 
 // xMin, xMax, yMin, yMax
 static const GLfloat rectangle[4] = {0,  10, 0, 20};
